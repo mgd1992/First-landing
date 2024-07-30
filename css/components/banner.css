@@ -1,0 +1,37 @@
+.banner{
+  width: 100%;
+  background-image: url('/landing/images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  display: block;
+  margin: auto;
+  width: 70%;
+  color: white;
+  font-weight: bold;
+  height: 605px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container h1{
+  margin: 0px;
+}
+
+.container p{
+  color: white;
+  opacity: .7;
+}
+
+.container a{
+  width: fit-content;
+  padding: 16px 36px;
+  background-color: #1EDD88;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  border-radius: 30px;
+}
